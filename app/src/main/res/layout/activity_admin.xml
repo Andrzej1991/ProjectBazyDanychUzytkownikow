@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    tools:context="com.example.andrzejdevcom.projectbazydanychuzytkownikow.AdminActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zaloguj się do systemu pracowników"
+        android:layout_margin="25dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/logitET"
+        android:layout_width="200dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:hint="Login" />
+
+    <EditText
+        android:id="@+id/hasloET"
+        android:layout_width="200dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:hint="Haslo" />
+
+    <Button
+        android:id="@+id/zalogujBtn"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zaloguj" />
+
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.andrzejdevcom.projectbazydanychuzytkownikow.PanelAdmin">
+
+    <EditText
+        android:id="@+id/wyszukajET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Wyszukaj pracownika" />
+
+    <Button
+        android:id="@+id/szukajB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Szukaj" />
+
+    <TextView
+        android:id="@+id/wynikTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:textColor="@android:color/black"
+        android:textSize="18dp" />
+
+
+</LinearLayout>
